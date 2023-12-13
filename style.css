@@ -1,0 +1,162 @@
+body {
+  margin: 0rem 3rem;
+}
+header {
+  display: flex;
+  align-items: center;
+  gap: 26rem;
+}
+
+input {
+  gap: 30rem;
+}
+
+i {
+  margin-left: 4rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-left: 26rem;
+  color: black;
+}
+
+nav li a {
+  color: black;
+}
+
+nav li a:hover {
+  border-bottom: 2px solid gold;
+}
+
+.header2 {
+  margin-top: 5rem;
+  display: flex;
+  background-color: gray;
+  padding: 2rem;
+  height: 20rem;
+}
+
+.img {
+  width: 30rem;
+  height: 19rem;
+  position: absolute;
+  z-index: 9000;
+  left: 300px;
+  top: 160px;
+}
+
+main {
+  display: flex;
+}
+
+.header2 .text {
+  width: 40%;
+}
+
+.white {
+  background-color: rgb(155, 139, 139);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: relative;
+  top: 100px;
+  right: 330px;
+}
+
+#sale {
+  margin-left: -15rem;
+  margin-top: 4.8rem;
+}
+
+.header3 {
+  background-color: peachpuff;
+  padding: 0.5rem;
+}
+.header3 h1 {
+  text-align: end;
+}
+.header3 p {
+  text-align: end;
+}
+.header3 img {
+  width: 10rem;
+  margin-top: -10rem;
+}
+
+.header4 {
+  display: flex;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.header4 .first {
+  background-color:cornsilk;
+  padding: 1rem;
+  height: 9.9rem;
+}
+
+.header4 h1, p {
+  z-index: 900;
+  position: relative;
+}
+
+.header4 img {
+  position: relative;
+  width: 15rem;
+  bottom: 7rem;
+  height: 10rem;
+}
+.header4 .second {
+  background-color:aquamarine;
+  padding: 1rem;
+  height: 9.9rem;
+}
+
+
+.new-arrivals  {
+  text-align: center;
+}
+.container {
+  display: flex;
+  gap: 1rem;
+}
+
+.container .image {
+  background-color: gainsboro;
+}
+
+.container .image img {
+  width: 100%;
+}
+
+.container .btn-green {
+  background-color: green;
+  color: white;
+  border: none;
+}
+.container .btn-orange {
+  background-color: orangered;
+  color: white;
+  border: none;
+  
+}
+.polo {
+  height: 14.9rem;
+}
+
+.container .image2 {
+  background-color: gainsboro;
+  width: 15rem;
+}
